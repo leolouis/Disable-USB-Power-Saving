@@ -1,0 +1,6 @@
+﻿Windows Registry Editor Version 5.00
+
+; Disable USB Power Saving registry
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USB]
+“DisableSelectiveSuspend”=dword:00000001
